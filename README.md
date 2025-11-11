@@ -31,7 +31,7 @@ docs/
 ## Colaboración
 
 - Para nuevos templates, crea una carpeta y sube el HTML.
-- Para cambios, usa PR y describe el objetivo.
+- Para cambios, usa PR y describe el objetivo. Sube tu PR a development y luego desde development promueve a main.
 - Para nuevas campañas, crea issues con detalles del contenido y diseño.
 
 ## Enlaces útiles
