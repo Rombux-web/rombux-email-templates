@@ -18,6 +18,47 @@
 </head>
 
 <body style="margin:0; padding:0;">
+  <!-- Banner Header (compatible email HTML y Outlook) -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px;">
+    <tr>
+      <!-- Banner Fondo -->
+      <td
+        style="padding:0; margin:0; position:relative; background-image:url('https://rombux-web.github.io/rombux-email-templates/assets/banner-logo-email-1200.png'); background-size:cover; background-position:center; height:90px;">
+        <!--[if gte mso 9]>
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:90px;">
+        <v:fill type="frame" src="https://rombux-web.github.io/rombux-email-templates/assets/banner-plano.png" color="#e51571"/>
+        <v:textbox inset="0,0,0,0">
+      <![endif]-->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="height:90px;">
+          <tr>
+            <td style="width:70px; padding-left:40px; vertical-align:middle;">
+              <!-- Logo blanco -->
+              <img src="https://rombux-web.github.io/rombux-email-templates/assets/rombux-logo-blanco.png"
+                alt="Logo Rombux" width="39" height="44" style="display:inline-block; vertical-align:middle;">
+            </td>
+            <td style="vertical-align:middle;">
+              <!-- Texto Rombux escalable -->
+              <span style="
+              font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
+              font-weight:400;
+              font-size:28px;
+              line-height: 1.1em;
+              letter-spacing: -0.05em;
+              color:#fff;
+              display:inline-block;">
+                Rombux
+              </span>
+            </td>
+          </tr>
+        </table>
+        <!--[if gte mso 9]>
+        </v:textbox>
+      </v:rect>
+      <![endif]-->
+      </td>
+    </tr>
+  </table>
+
   <!-- Banner superior responsive -->
   <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px;">
     <tr>
@@ -156,7 +197,7 @@
           padding-bottom:5px;
           font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
           font-weight:700;
-          font-size:18px;
+          font-size:16px;
           line-height:20px;
           color:#1D1D1B;
           letter-spacing:0;
@@ -170,20 +211,25 @@
           <tr>
             <td style="vertical-align:bottom;">
               <img src="https://rombux-web.github.io/rombux-email-templates/assets/rombux-logo-signature.png"
-                alt="Logo Rombux" width="30" height="26" style="margin-bottom:0;">
+                alt="Rombux Logo" width="30" height="26" style="display:inline-block;">
             </td>
-            <td style="vertical-align:bottom; padding-left:5px;">
-              <span style="
-                font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 31px;
-                line-height: 20px;
-                letter-spacing: -0.05em;
-                color: #1D1D1B;
-                display:inline-block;">
-                Rombux
-              </span>
+            <td style="vertical-align:bottom; padding-left:8px;">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="height:26px; vertical-align:bottom;">
+                    <span style="
+                      font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
+                      font-weight:400;
+                      font-size:31px;
+                      line-height:26px;
+                      letter-spacing:-0.05em;
+                      color:#1D1D1B;
+                      display:inline-block;">
+                      Rombux
+                    </span>
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
         </table>
@@ -193,7 +239,7 @@
       <td colspan="2" style="
           padding-left:5%;
           padding-top:0;
-          padding-bottom:0px;
+          padding-bottom:10px;
           font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
           font-weight:300;
           font-size:10px;
@@ -205,12 +251,14 @@
     </tr>
   </table>
 
-  <!-- Separador: línea decorativa -->
+  <!-- Separador: línea decorativa para Outlook -->
   <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px;">
     <tr>
-      <td style="padding-left:5%; padding-right:5%; padding-top:5px; padding-bottom:10px;">
-        <hr style="border:0; border-top:1px solid #1D1D1B; margin:0;">
+      <td width="5%" style="line-height:2px; font-size:0;">&nbsp;</td>
+      <td>
+        <hr style="border:0; border-top:2px solid #1D1D1B; height:2px; margin:0;">
       </td>
+      <td width="5%" style="line-height:2px; font-size:0;">&nbsp;</td>
     </tr>
   </table>
 
@@ -218,25 +266,23 @@
   <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px;">
     <tr>
       <!-- Columna Izquierda: Texto -->
-      <td width="65%" align="left" valign="top" style="
+      <td width="75%" align="left" valign="top" style="
           padding-left:5.17%;
           padding-right:1%;
           padding-bottom: 5%;
+          padding-top: 12px;
           font-family: Arial, Helvetica, sans-serif;
           font-size:10px;
           line-height:14px;
           color:#000000;
         ">
-        © 2025 Rombux. Todos los derechos reservados.<br>
-        Lezica 4363, Buenos Aires, Argentina.<br>
+        © 2025 Rombux. Todos los derechos reservados. Lezica 4363, Buenos Aires, Argentina.<br>
         Este mail fue enviado a [email]<br>
-        <!-- link que de la plataforma para dar de baja -->
         <a href="#" style="color:#000000; text-decoration:underline;">Darse de baja</a> -
-        <!-- link que de la plataforma para gestionar preferencias -->
         <a href="#" style="color:#000000; text-decoration:underline;">Gestionar preferencias</a>
       </td>
-      <!-- Columna Derecha: RRSS -->
-      <td width="35%" align="right" valign="top" style="padding-right:4.92%;">
+      <!-- Columna Derecha: RRSS, con tabla interna separadora -->
+      <td width="25%" align="right" valign="top" style="padding-right:4.92%; padding-top: 10px;">
         <table cellpadding="0" cellspacing="0" border="0">
           <tr>
             <td>
