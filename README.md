@@ -5,8 +5,8 @@ Repositorio para gestionar, versionar y colaborar en los templates HTML de email
 ## Estructura sugerida
 
 ```
-institucional/
-  institucional.html
+template_generico/
+  template_generico.html
 servicios/
   servicios.html
 educativo/
